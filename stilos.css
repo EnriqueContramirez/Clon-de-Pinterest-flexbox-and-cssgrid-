@@ -245,6 +245,22 @@ div .overlay{
     margin: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.overlay .buttonsave{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.overlay .icon-compartir{
+    grid-column: 3 / 4;
+    grid-row: 3/ 4;
+}
+
+.overlay .icon-option{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
 }
 
 .fondohober:hover .overlay{
@@ -263,6 +279,8 @@ div .overlay{
     align-items: center;
     border: none;
     align-self: flex-start;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .icon-compartir{
@@ -272,9 +290,10 @@ div .overlay{
     background-image: url(iconcompartir.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 70%;
+    background-position: 20%;
     border: 1px solid black;
     align-self: flex-end;
+    margin-bottom: 10px;
 }
 
 .icon-option{
@@ -286,7 +305,10 @@ div .overlay{
     background-repeat: no-repeat;
     background-position: 70%;
     border: 1px solid black;
-    align-self: center;
+    align-self: flex-end;
+    justify-self: end;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 
